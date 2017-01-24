@@ -1,0 +1,10 @@
+/home/robert/export/ansible/roles/nis/templates/nsswitch.conf.j2
+/home/robert/export/ansible/roles/nis/templates/#nsswitch.conf.j2#
+/home/robert/export/ansible/roles/nis/templates/yp.conf.j2
+/home/robert/export/ansible/roles/nis/templates/#yp.conf.j2#
+/home/robert/export/ansible/roles/nis/defaults/main.yml
+/home/robert/export/ansible/roles/nis/defaults/#main.yml#
+/home/robert/export/ansible/roles/build/setup/tasks/install_packages.yml
+/home/robert/export/ansible/roles/build/setup/tasks/#install_packages.yml#
+/home/robert/export/ansible/roles/build/setup/tasks/main.yml
+/home/robert/export/ansible/roles/build/setup/tasks/#main.yml#

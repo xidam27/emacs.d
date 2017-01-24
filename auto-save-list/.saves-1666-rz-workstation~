@@ -1,0 +1,8 @@
+/home/robert/export/venice_playbooks/roles/common/templates/etc/krb5.conf.j2
+/home/robert/export/venice_playbooks/roles/common/templates/etc/#krb5.conf.j2#
+/home/robert/export/venice_playbooks/roles/build/tasks/main.yml
+/home/robert/export/venice_playbooks/roles/build/tasks/#main.yml#
+/home/robert/export/venice_playbooks/venice_playbook_with_roles.yml
+/home/robert/export/venice_playbooks/#venice_playbook_with_roles.yml#
+/home/robert/export/venice_playbooks/venice_playbook_with_roles.retry
+/home/robert/export/venice_playbooks/#venice_playbook_with_roles.retry#

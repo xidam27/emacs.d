@@ -1,0 +1,1207 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Nov  3 13:37:34 2016
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22555 15774 984587 73000) (desktop . "206") "robert@rz-hpserver" nil nil ((((font-backend xft x) (font . "-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#DEDEDE") (background-color . "#161A1F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (fullscreen) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 13) (alpha) (display-type . color) (background-mode . dark) (cursor-color . "#EEDC82") (visibility . t) (horizontal-scroll-bars . t) (environment) (frameset--id . "440F-C407-66C4-E113") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "localhost:11.0") (explicit-name) (height . 72) (width . 236) (left . 411) (top . 164)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 52) (min-pixel-width . 80) (min-pixel-height-ignore . 26) (min-pixel-width-ignore . 48) (min-pixel-height-safe . 13) (min-pixel-width-safe . 16)) leaf (pixel-width . 1917) (pixel-height . 923) (total-width . 239) (total-height . 71) (normal-height . 1.0) (normal-width . 1.0) (buffer "ha.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 9) (scroll-bars 13 2 t nil) (vscroll . 0) (dedicated) (point . 18129) (start . 16428))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("ha.org" "consul_template_templates" "acl" "node_na" "ti" "#"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/org/delme.org" "~/org/" "~/" "~/export/ha_playbooks/roles/consul" "~/export/ha_playbooks/roles/nginx/tasks/" "~/export/ha_playbooks/roles/galera/meta/main.yml" "~/export/ha_playbooks/roles/galera/meta" "~/export/ha_playbooks/roles/consul-template/templates/" "~/export/ha_playbooks/roles/consul-template/files/haproxy.cfg.ctmpl.j2" "~/export/ha_playbooks/roles/consul-template/files/*.j2" "~/export/ha_playbooks/roles/consul-template/files/" "~/export/ha_playbooks/roles/consul-template/files" "~/export/ha_playbooks/roles/consul-template/haproxy.cfg.ctmpl" "~/export/ha_playbooks/roles/consul-template/" "~/export/ha_playbooks/roles/consul-template/files/" "~/export/ha_playbooks/roles/haproxy/templates/" "~/export/ha_playbooks/roles/nginx/templates/app_server.json.j2" "~/export/ha_playbooks/roles/nginx/files/api.conf" "~/export/ha_playbooks/roles/nginx/files/" "~/export/ha_playbooks/roles/nginx/files" "~/export/ha_playbooks/roles/nginx/files/" "~/export/ha_playbooks/roles/nginx/fi" "~/export/ha_playbooks/roles/nginx/api.conf" "~/export/ha_playbooks/roles/nginx/files/" "~/export/ha_playbooks/roles/nginx/files" "~/export/ha_playbooks/roles/nginx/files/" "~/export/ha_playbooks/roles/nginx/" "~/export/ha_playbooks/roles/nginx/files" "~/export/ha_playbooks/roles/nginx/templates/" "~/export/ha_playbooks/roles/nginx/templates/api_server.conf" "~/export/ha_playbooks/roles/nginx/templates" "~/export/ha_playbooks" "~/export/galera_playbooks/" "~/export/haproxy_playbooks/roles/haproxy" "~/export/haproxy_playbooks/roles/common/tasks/" "~/org/MBSVC-77.org" "~/org/MBSVC-74.txt" "~/org/ha.org" "~/export/galera_playbooks/roles/common/templates/" "~/org/ha.org" "~/org/" "~/org/#ha.org#" "~/MBSVC-74.org" "~/org/" "~/org/ha.org" "~/org/MBSVC-77.org" "~/org/" "~/org/MBSVC-74.txt" "~/org/MBSVC-74.org" "~/org/hints.org" "~/org/work.org" "~/.emacs" "~/.emacs.d/" "~/.emacs"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/robert/org/ha.org"
+  "ha.org"
+  'org-mode
+  '(autopair-mode linum-mode)
+  18129
+  '(18317 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/robert/MBSVC-74.pdf"
+  "MBSVC-74.pdf"
+  'doc-view-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  t
+  '((page . 1) (slice))
+  '((buffer-file-coding-system . no-conversion)))
+
+(desktop-create-buffer 206
+  "/home/robert/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(overwrite-mode autopair-mode linum-mode)
+  1651
+  '(1315 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode . overwrite-mode-textual)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/templates/haproxy.cfg.ctmpl.j2"
+  "haproxy.cfg.ctmpl.j2"
+  'conf-space-mode
+  '(autopair-mode linum-mode)
+  1836
+  '(2442 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/org/work.org"
+  "work.org"
+  'org-mode
+  '(autopair-mode linum-mode)
+  6834
+  '(6834 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/robert/org/MBSVC-77.org"
+  "MBSVC-77.org"
+  'org-mode
+  '(autopair-mode linum-mode)
+  1045
+  '(1632 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/robert/org/MBSVC-74.org"
+  "MBSVC-74.org"
+  'org-mode
+  '(autopair-mode linum-mode)
+  938
+  '(9371 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/robert/org/MBSVC-74.txt"
+  "MBSVC-74.txt"
+  'text-mode
+  '(autopair-mode linum-mode)
+  2480
+  '(45 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/org/missfont.log"
+  "missfont.log"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/org/hints.org"
+  "hints.org"
+  'org-mode
+  '(autopair-mode linum-mode)
+  18
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/robert/org/delme.org"
+  "delme.org"
+  'org-mode
+  '(autopair-mode linum-mode)
+  453
+  '(32 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "robert"
+  'dired-mode
+  '(linum-mode)
+  1930
+  '(nil nil)
+  t
+  '("/home/robert/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/galera/tasks/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  811
+  '(515 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  ".ssh"
+  'dired-mode
+  '(linum-mode)
+  472
+  '(472 nil)
+  t
+  '("/home/robert/.ssh/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/haproxy/tasks/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1220
+  '(1223 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/tasks/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  3337
+  '(2750 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/haproxy.yml"
+  "haproxy.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  50
+  '(52 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/templates/consul-template.cfg.j2"
+  "consul-template.cfg.j2"
+  'conf-xdefaults-mode
+  '(autopair-mode linum-mode)
+  481
+  '(480 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/handlers/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  92
+  '(47 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "roles"
+  'dired-mode
+  '(linum-mode)
+  188
+  '(nil nil)
+  t
+  '("/home/robert/export/ha_playbooks/roles/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/hosts"
+  "hosts"
+  'fundamental-mode
+  '(overwrite-mode autopair-mode linum-mode)
+  262
+  '(11 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode . overwrite-mode-textual)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/tasks/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1037
+  '(308 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/meta/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  346
+  '(310 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/handlers/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  217
+  '(156 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/tasks/pkg.yml"
+  "pkg.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  550
+  '(550 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/files/api.conf"
+  "api.conf"
+  'conf-space-mode
+  '(autopair-mode linum-mode)
+  193
+  '(125 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/templates/app_server.json.j2"
+  "app_server.json.j2"
+  'html-mode
+  '(autopair-mode linum-mode)
+  194
+  '(193 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/templates/server_config.json.j2"
+  "server_config.json.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  565
+  '(656 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/galera.yml"
+  "galera.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  77
+  '(77 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/consul.yml"
+  "consul.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  40
+  '(40 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/haproxy.retry"
+  "haproxy.retry"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/nginx.retry"
+  "nginx.retry"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/nginx.yml"
+  "nginx.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  78
+  '(78 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/defaults/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  922
+  '(898 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "nginx"
+  'dired-mode
+  '(linum-mode)
+  194
+  '(1 nil)
+  t
+  '("/home/robert/export/ha_playbooks/roles/nginx/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "tasks"
+  'dired-mode
+  '(linum-mode)
+  200
+  '(nil nil)
+  t
+  '("/home/robert/export/ha_playbooks/roles/nginx/tasks/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/tasks/apt.yml"
+  "apt.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  466
+  '(411 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/tasks/service.yml"
+  "service.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/haproxy/meta/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  399
+  '(363 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/galera/meta/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  37
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/galera/handlers/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  176
+  '(176 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/defaults/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1459
+  '(1625 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/haproxy/handlers/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/haproxy/templates/temp-haproxy.cfg.j2"
+  "temp-haproxy.cfg.j2"
+  'conf-space-mode
+  '(autopair-mode linum-mode)
+  2265
+  '(2299 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/haproxy/templates/haproxy.cfg.j2"
+  "haproxy.cfg.j2"
+  'conf-space-mode
+  '(autopair-mode linum-mode)
+  1132
+  '(1496 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/templates/consul-template.sh.j2"
+  "consul-template.sh.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/tasks/install.yml"
+  "install.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode ansible)
+  1768
+  '(2398 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/tasks/service.yml"
+  "service.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/tasks/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  88
+  '(5 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/templates/consul-template.service.systemd.j2"
+  "consul-template.service.systemd.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/meta/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  227
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/haproxy/defaults/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  594
+  '(594 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/vars/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "files"
+  'dired-mode
+  '(linum-mode)
+  212
+  '(212 nil)
+  t
+  '("/home/robert/export/ha_playbooks/roles/consul-template/files/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "consul-template"
+  'dired-mode
+  '(linum-mode)
+  320
+  '(nil nil)
+  t
+  '("/home/robert/export/ha_playbooks/roles/consul-template/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "templates"
+  'dired-mode
+  '(linum-mode)
+  379
+  '(nil nil)
+  t
+  '("/home/robert/export/ha_playbooks/roles/haproxy/templates/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/templates/consul-template.service.upstart.j2"
+  "consul-template.service.upstart.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  526
+  '(211 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul-template/ansible.cfg"
+  "ansible.cfg"
+  'conf-unix-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/handlers/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  268
+  '(267 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/tasks/Ubuntu.yml"
+  "Ubuntu.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  973
+  '(973 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/tasks/RedHat.yml"
+  "RedHat.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/tasks/Debian.yml"
+  "Debian.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/rbenv/templates/rbenv.sh.j2"
+  "rbenv.sh.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/rbenv/tasks/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1401
+  '(1162 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/rbenv/defaults/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  83
+  '(16 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/rbenv/handlers/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/rbenv/role.yml"
+  "role.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/rbenv/README.md"
+  "README.md"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  335
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/galera/tasks/ubuntu.yml"
+  "ubuntu.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/galera/templates/mariadb_centos.repo.j2"
+  "mariadb_centos.repo.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/galera/templates/mariadb_ubuntu.list.j2"
+  "mariadb_ubuntu.list.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/galera/templates/my.cnf.j2"
+  "my.cnf.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/galera/vars/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "tests"
+  'dired-mode
+  '(linum-mode)
+  318
+  '(318 nil)
+  t
+  '("/home/robert/export/ha_playbooks/roles/nginx/tests/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/tests/apache/hello_world.j2"
+  "hello_world.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/tests/apache/apache.yml"
+  "apache.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  867
+  '(867 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/nginx/tests/apache/config.ru"
+  "config.ru"
+  'ruby-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "files"
+  'dired-mode
+  '(linum-mode)
+  318
+  '(nil nil)
+  t
+  '("/home/robert/export/ha_playbooks/roles/nginx/files/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "templates"
+  'dired-mode
+  '(linum-mode)
+  202
+  '(nil nil)
+  t
+  '("/home/robert/export/ha_playbooks/roles/nginx/templates/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/templates/server_bootstrap_config.json.j2"
+  "server_bootstrap_config.json.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  638
+  '(551 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/meta/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  816
+  '(816 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/templates/consul_systemd.service.j2"
+  "consul_systemd.service.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  728
+  '(442 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/templates/consul_debian.init.j2"
+  "consul_debian.init.j2"
+  'sh-mode
+  '(autopair-mode linum-mode)
+  870
+  '(858 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/tasks/dnsmasq.yml"
+  "dnsmasq.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/templates/consul_sysvinit.j2"
+  "consul_sysvinit.j2"
+  'sh-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/templates/client_config.json.j2"
+  "client_config.json.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  40
+  '(772 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/templates/config_acl.json.j2"
+  "config_acl.json.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/templates/config_acl_policy.hcl.j2"
+  "config_acl_policy.hcl.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  592
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/templates/config_atlas.json.j2"
+  "config_atlas.json.j2"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/CHANGELOG.md"
+  "CHANGELOG.md"
+  'change-log-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((show-trailing-whitespace . t) (tab-width . 8) (indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix) (fill-column . 74)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/tasks/CentOS.yml"
+  "CentOS.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/roles/consul/README.md"
+  "README.md"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1499
+  '(10 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/consul.retry"
+  "consul.retry"
+  'fundamental-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/venice_playbooks/roles/common/templates/etc/nrpe.d/frontier.cfg.j2"
+  "frontier.cfg.j2"
+  'conf-unix-mode
+  '(autopair-mode linum-mode)
+  896
+  '(976 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/venice_playbooks/roles/common/templates/etc/samba/smb.conf.j2"
+  "smb.conf.j2"
+  'conf-unix-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/venice_playbooks/roles/common/templates/etc/krb5.conf.j2"
+  "krb5.conf.j2"
+  'conf-unix-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/venice_playbooks/roles/common/templates/etc/chrony.conf.j2"
+  "chrony.conf.j2"
+  'conf-space-mode
+  '(autopair-mode linum-mode)
+  334
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/venice_playbooks/roles/epel_repo/tasks/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/venice_playbooks/roles/hp_repo/vars/CentOS.yml"
+  "CentOS.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/venice_playbooks/roles/hp_repo/vars/Ubuntu.yml"
+  "Ubuntu.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/venice_playbooks/roles/hp_repo/vars/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/venice_playbooks/roles/hp_repo/tasks/main.yml"
+  "main.yml"
+  'yaml-mode
+  '(autopair-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/robert/export/ha_playbooks/galera.yml~"
+  "galera.yml~"
+  'yaml-mode
+  '(linum-mode)
+  29
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "ha_playbooks"
+  'dired-mode
+  '(linum-mode)
+  287
+  '(561 nil)
+  t
+  '("/home/robert/export/ha_playbooks/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "export"
+  'dired-mode
+  '(linum-mode)
+  280
+  '(nil nil)
+  t
+  '("/home/robert/export/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "ansible_orig"
+  'dired-mode
+  '(linum-mode)
+  179
+  '(nil nil)
+  t
+  '("/home/robert/export/ansible_orig/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "org"
+  'dired-mode
+  '(linum-mode)
+  454
+  '(nil nil)
+  t
+  '("/home/robert/org/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "*info*"
+  'Info-mode
+  '(linum-mode)
+  54769
+  '(nil nil)
+  t
+  '("/usr/share/info/emacs-24/emacs" "Distrib" nil)
+  '((tab-width . 8) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
+
